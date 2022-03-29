@@ -95,7 +95,7 @@ video {
   box-sizing: border-box;
 }
 .container {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   text-align: center;
   /*background-color: #ddb9a3;*/
@@ -109,14 +109,16 @@ header img {
   border-radius: 100%;
   object-fit: display;
   vertical-align: top;
-  float: left;
+
   padding: 1%;
+  display: inline-block;
 }
 
 .textbox {
   background-color: tan;
   padding: 3%;
-  margin: 1% 0;
+  width: 80%;
+  margin: 2% auto;
   color: white;
 }
 h1 {
@@ -124,6 +126,10 @@ h1 {
   font-family: "Chelsea Market", cursive;
   padding-top: 5%;
   margin-bottom: 1rem;
+}
+div.header-block {
+  display: inline-block;
+  margin-top: 2%;
 }
 p {
   font-family: "Roboto Mono", monospace;
@@ -186,3 +192,7 @@ footer div img {
 /* .footer-height {
   height: 20%;
 } */
+span.b {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
